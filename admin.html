@@ -3,50 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Painel do Aluno</title>
+    <title>Painel do Administrador</title>
 
-    <link rel="stylesheet" href="aluno.css" />
+    <link rel="stylesheet" href="admin.css" />
   </head>
-
   <body>
     <div class="sidebar">
       <h2>Sistema Escolar</h2>
 
-      <a href="minha-frequencia.html">Minha Frequência</a>
+      <a href="cadastro-alunos.html">Alunos</a>
 
-      <a href="minhas-notas.html">Minhas Notas</a>
+      <a href="cadastro-professores.html">Professores</a>
 
-      <a href="perfil.html">Meu Perfil</a>
+      <a href="frequencia.html">Frequência</a>
 
       <a href="index.html">Sair</a>
     </div>
 
-    <div class="conteudo">
-      <h1>Painel do Aluno</h1>
+    <div class="main">
+      <header>
+        <h1>Painel do Administrador</h1>
+
+        <span>Bem-vindo!</span>
+      </header>
 
       <div class="cards">
         <div class="card">
-          <h2>Minha Frequência</h2>
+          <h3>Alunos</h3>
 
-          <p>Consulte suas presenças e faltas registradas.</p>
+          <p>Gerencie todos os alunos cadastrados.</p>
 
-          <a href="minha-frequencia.html">Abrir</a>
+          <a href="cadastro-alunos.html" class="card-btn">Abrir</a>
         </div>
 
         <div class="card">
-          <h2>Minhas Notas</h2>
+          <h3>Professores</h3>
 
-          <p>Visualize as notas das disciplinas.</p>
+          <p>Cadastro e gerenciamento dos professores.</p>
 
-          <a href="minhas-notas.html">Abrir</a>
+          <a href="cadastro-professores.html" class="card-btn">Abrir</a>
         </div>
 
         <div class="card">
-          <h2>Meu Perfil</h2>
+          <h3>Frequência</h3>
 
-          <p>Consulte seus dados pessoais e acadêmicos.</p>
+          <p>Controle de presença dos alunos.</p>
 
-          <a href="perfil.html">Abrir</a>
+          <a href="frequencia.html" class="card-btn">Abrir</a>
         </div>
       </div>
     </div>
